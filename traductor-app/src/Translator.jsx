@@ -324,7 +324,6 @@ export default function Translator() {
           placeholder="Escribe aquí el texto a traducir (traducción automática)..."
           value={text}
           onChange={(e) => setText(e.target.value)}
-          disabled={loading}
           autoFocus
         />
         <button
